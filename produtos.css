@@ -1,0 +1,270 @@
+
+.pagina-produtos {
+    width: 90%;
+    max-width: 1000px;
+    margin: 45px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 20px;
+}
+
+.filtros > h2,
+.servicos-produtos > h2 {
+    margin-bottom: 15px;
+    color: #0A9396;
+    font-size: 20px;
+}
+
+.filtros {
+    padding: 18px;
+    background: #FFFFFF;
+    border: 1px solid #E9A04B;
+    border-radius: 18px;
+    box-shadow: 0 2px 5px #00000012;
+}
+
+.grupo-filtro {
+    padding: 12px 0;
+    border-bottom: 1px solid #F0E6D9;
+}
+
+.grupo-filtro:last-child {
+    border-bottom: none;
+}
+
+.grupo-filtro h3 {
+    margin-bottom: 12px;
+    color: #222222;
+    font-size: 16px;
+}
+
+.campos-preco {
+    display: flex;
+    gap: 10px;
+}
+
+.campos-preco label {
+    flex: 1;
+    min-width: 0;
+    color: #888888;
+    font-size: 12px;
+}
+
+.campos-preco input {
+    width: 100%;
+    min-width: 0;
+    margin-top: 6px;
+    padding: 10px 7px;
+    border: 1px solid #FDD6B0;
+    border-radius: 14px;
+    font-size: 11px;
+}
+
+.faixa-preco {
+    width: 100%;
+    margin: 12px 0;
+    accent-color: #0A9396;
+    cursor: pointer;
+}
+
+.botao-aplicar {
+    display: block;
+    margin: 0 auto;
+    padding: 8px 22px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #0A9396, #FDD58F);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.opcao {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 10px 0;
+    color: #999999;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.opcao input {
+    accent-color: #0A9396;
+    cursor: pointer;
+}
+
+
+.servicos-produtos {
+    min-width: 0;
+}
+
+.cartao-servicos {
+    padding: 15px;
+    background: white;
+    border: 1px solid #E9A04B;
+    border-radius: 18px;
+    box-shadow: 0 2px 5px #00000012;
+}
+
+.cartao-servicos p {
+    margin-bottom: 13px;
+    color: #999999;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.cartao-servicos p:last-child {
+    margin-bottom: 0;
+}
+
+.cartao-servicos strong {
+    color: #555555;
+}
+
+.mensagem-servicos {
+    margin-top: 12px;
+    padding: 12px;
+    background: white;
+    border: 1px solid #E9A04B;
+    border-radius: 18px;
+    color: #0A9396;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.desenho-produtos {
+    display: block;
+    width: 130px;
+    height: 150px;
+    margin: 25px auto;
+    object-fit: contain;
+}
+
+.rodape-produtos {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+    padding: 60px 7% 30px;
+    background: #000000;
+    color: #888888;
+    text-align: center;
+}
+
+.rodape-produtos img {
+    width: 100%;
+    max-width: 250px;
+}
+
+.rodape-produtos h3 {
+    margin: 8px 0 3px;
+    color: #0A9396;
+}
+
+.rodape-produtos p {
+    font-size: 13px;
+}
+
+.titulo-principal {
+    position: relative;
+    z-index: 1;
+    width: 85%;
+    margin: 45px auto 35px;
+    padding: 12px 20px;
+    background: white;
+    border: 2px solid #E9A04B;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+}
+
+.titulo-principal h2 {
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(
+        to right,
+        #005F73,
+        #0A9396,
+        #94D2BD,
+        #FDD58F,
+        #CA6702
+    );
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    filter: drop-shadow(0 3px 0 rgba(0, 0, 0, 0.25));
+}
+.titulo-destaques-produtos {
+    width: 90%;
+    margin: 35px auto 25px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.titulo-destaques-produtos .icone-produtos {
+    color: #002F36;
+    font-size: 25px;
+}
+
+.titulo-destaques-produtos h2 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+    background: linear-gradient(
+        to right,
+        #005F73,
+        #0A9396,
+        #94D2BD,
+        #FDD58F,
+        #CA6702
+    );
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    filter: drop-shadow(0 3px 0 rgba(0, 0, 0, 0.439));
+}
+
+.titulo-destaques-produtos p {
+    width: 100%;
+    margin: 0;
+    color: #999999;
+    font-size: 14px;
+}
+
+.transicao-rodape {
+    width: 100%;
+    height: 14px;
+    margin-top: 40px;
+    background: #000000;
+    border-top: 5px solid #0A9396;
+    border-bottom: 3px solid #005F73;
+}
+
+footer {
+    width: 100%;
+    margin-top: 0;
+    padding: 80px 7% 30px;
+    background: #000000;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    color: #888888;
+    text-align: center;
+}
+
+footer img {
+    width: 100%;
+    max-width: 300px;
+}
+
+footer h3 {
+    color: #0A9396;
+}
+
+footer p {
+    font-size: 13px;
+}

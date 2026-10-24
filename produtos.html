@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos Produtos | ICellSmart</title>
+   <link href="estilo.css" rel="stylesheet">
+   <link href="produtos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagens/logo.png" alt="Logo ICellSmart">
+            <h1>FRETE GRÁTIS PARA TODO O BRASIL</h1>
+        </div>
+    </header>
+
+    <nav>
+        <div class="pesquisa">
+            <input type="text" placeholder="Procure na loja...">
+            <button type="button" aria-label="Pesquisar">&#128269;</button>
+        </div>
+
+        <ul class="menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="produtos.html" class="ativo">NOSSOS PRODUTOS</a></li>
+            <li><a href="index.html#ofertas">OFERTAS</a></li>
+            <li><a href="index.html#vendas">VENDAS ONLINE</a></li>
+            <li><a href="index.html#sobre">SOBRE NÓS</a></li>
+        </ul>
+    </nav>
+
+    <header class="header-banner">
+        <img src="imagens/banner.png" alt="Banner da ICellSmart">
+    </header>
+    
+    <section class="titulo-principal">
+         <h2>NOSSOS PRODUTOS</h2>
+    </section>
+
+    <section class="titulo-destaques-produtos">
+        <span class="icone-produtos">▮</span>
+        <h2>ENCONTRE O QUE VOCÊ PROCURA</h2>
+        <p>Explore nossos produtos, filtre por categoria e descubra suas próximas compras!</p>
+    </section>
+
+
+    <main class="pagina-produtos">
+
+        <section class="filtros">
+            <h2>☷ SELECIONE</h2>
+
+            <div class="grupo-filtro">
+                <h3>Preços:</h3>
+
+                <div class="campos-preco">
+                    <label>
+                        De:
+                        <input type="number" placeholder="Ex.: R$ 10,00">
+                    </label>
+
+                    <label>
+                        Até:
+                        <input type="number" placeholder="Ex.: R$ 2000,00">
+                    </label>
+                </div>
+
+                <input class="faixa-preco" type="range" min="0" max="10000">
+
+                <button class="botao-aplicar" type="button">APLICAR</button>
+            </div>
+
+            <div class="grupo-filtro">
+                <h3>Categorias:</h3>
+
+                <label class="opcao">
+                    <input type="checkbox"> Smartphones e telefones
+                </label>
+
+                <label class="opcao">
+                    <input type="checkbox"> Capinhas
+                </label>
+
+                <label class="opcao">
+                    <input type="checkbox"> Fones
+                </label>
+
+                <label class="opcao">
+                    <input type="checkbox"> Em promoção
+                </label>
+            </div>
+
+            <div class="grupo-filtro">
+                <h3>Descontos:</h3>
+
+                <label class="opcao">
+                    <input type="checkbox"> Até 10%
+                </label>
+
+                <label class="opcao">
+                    <input type="checkbox"> De 10% até 20%
+                </label>
+
+                <label class="opcao">
+                    <input type="checkbox"> De 20% até 30%
+                </label>
+
+                <label class="opcao">
+                    <input type="checkbox"> Acima de 30%
+                </label>
+            </div>
+
+            <div class="grupo-filtro">
+                <h3>Marcas:</h3>
+
+                <label class="opcao">
+                    <input type="checkbox"> Samsung
+                </label>
+
+                <label class="opcao">
+                    <input type="checkbox"> Motorola
+                </label>
+
+                <label class="opcao">
+                    <input type="checkbox"> iPhone
+                </label>
+
+                <label class="opcao">
+                    <input type="checkbox"> HUAWEI
+                </label>
+
+                <label class="opcao">
+                    <input type="checkbox"> Xiaomi
+                </label>
+            </div>
+        </section>
+
+        <section class="servicos-produtos">
+            <h2>♟ NOSSOS SERVIÇOS</h2>
+
+            <div class="cartao-servicos">
+                <p>🔧 <strong>Manutenção</strong> — Reparos e diagnóstico de smartphones.</p>
+
+                <p>🔋 <strong>Troca de bateria</strong> — Substituição de baterias desgastadas.</p>
+
+                <p>📱 <strong>Troca de tela</strong> — Reparo de telas danificadas.</p>
+
+                <p>🔌 <strong>Conectores</strong> — Reparo de entradas de carregamento.</p>
+
+                <p>📂 <strong>Transferência de dados</strong> — Migração de arquivos para seu novo aparelho.</p>
+
+                <p>⚙️ <strong>Configuração</strong> — Ajustes e instalação de aplicativos.</p>
+
+                <p>🛡️ <strong>Aplicação de película</strong> — Proteção para sua tela.</p>
+
+                <p>🎧 <strong>Acessórios</strong> — Capinhas, fones e outros dispositivos.</p>
+            </div>
+
+            <div class="mensagem-servicos">
+                Na ICellSmart, você encontra tecnologia, suporte e qualidade em um só lugar.
+            </div>
+
+            <img class="desenho-produtos" src="imagens/flor.png" alt="flor">
+        </section>
+
+    </main>
+    
+    <div class="transicao-rodape"></div>
+
+    <footer class="rodape-produtos">
+        <div>
+            <img src="imagens/logo.png" alt="ICellSmart">
+            <p>Seu próximo celular, do seu jeito.</p>
+        </div>
+
+        <div>
+            <h3>Veja as redes</h3>
+            Instagram · TikTok · X
+            <h3>Loja física</h3>
+            (Endereço da loja)
+        </div>
+
+        <div>
+            <h3>Atendimento</h3>
+            <p>icellsmart@gmail.com</p>
+            <p>Segunda a sexta — 8h às 19h</p>
+            <h3>Dúvidas</h3>
+            <p>Formas de pagamento</p>
+            <p>Entregas</p>
+            <p>Trocas e devoluções</p>
+        </div>
+    </footer>
+</body>
+</html>
